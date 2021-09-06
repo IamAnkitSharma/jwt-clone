@@ -6,4 +6,3 @@ export const headerInfo = {
   type: "JWT",
   alg: "HS256",
 };
-console.log(secret);
