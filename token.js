@@ -4,7 +4,7 @@ import {
   removeEqualsChar,
   shaHashWithSecret,
 } from "./utils.js";
-import { headerInfo, secret } from "./constant.js";
+import { headerInfo } from "./constant.js";
 
 export const sign = (data, secret, seconds) => {
   if (!secret) throw new Error("secret not provided");
